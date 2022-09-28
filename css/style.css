@@ -1,0 +1,28 @@
+body {
+    font-family:Comfortaa;
+    background-color:#1F9C6B;
+    color:black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-fmaily:"Comfortaa";
+    font-size:35pt;
+}
+
+header {
+    text-align:center;
+}
+
+#Hero, footer {
+    background-color:#30C6E6;
+    text-align:center;
+    padding: 20px;
+}
+
+#Hero img {
+    width: 300px;
+}
+
+#Hobbies {
+    text-align:center;
+}
