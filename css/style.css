@@ -26,3 +26,10 @@ header {
 #Hobbies {
     text-align:center;
 }
+
+#bio {
+    text: align 200px;
+    background-color: red;
+    color:blue;
+    
+}
