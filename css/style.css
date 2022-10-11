@@ -13,6 +13,8 @@ header {
     text-align:center;
 }
 
+/*Hero Section*/
+
 #Hero, footer {
     background-color:#30C6E6;
     text-align:center;
@@ -23,13 +25,29 @@ header {
     width: 300px;
 }
 
-#Hobbies {
-    text-align:center;
-}
+/* BIo Section*/
 
 #bio {
     text: align 200px;
     background-color: red;
     color:blue;
-    
+}
+/*Hobbies Section*/
+
+#Hobbies {
+    text-align:center;
+}
+
+/*Gallety Secion*/
+
+#gallery {
+    border: 3px solid purple
+}
+
+#gallery img {
+    max-width: 100px;
+}
+
+#gallery figure {
+    text-align: right;
 }
