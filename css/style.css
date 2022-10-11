@@ -9,6 +9,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size:35pt;
 }
 
+h2 {
+    font-size: 20pt;
+}
+
 header {
     text-align:center;
 }
@@ -41,7 +45,8 @@ header {
 /*Gallety Secion*/
 
 #gallery {
-    border: 3px solid purple
+    border: 3px solid purple;
+    margin-bottom:4rem;
 }
 
 #gallery img {
@@ -50,4 +55,34 @@ header {
 
 #gallery figure {
     text-align: right;
+}
+
+/*Literature */
+
+#lit {
+    text-size-adjust: 10px;
+    text-align: center;
+    border: 2px solid brown;
+    margin-bottom:4rem;
+}
+
+#lit div {
+    padding:3rem;
+    max-width: 30rem;
+    margin: 0 auto;
+
+}
+
+#lit div p {
+    padding: 0.9rem;
+    clear: both;
+}
+
+#lit div p::first-letter {
+    color: white;
+    float:left;
+    font-size: 30px;
+    margin-right: .10em;
+    padding: .30em;
+    line-height: .90em;
 }
