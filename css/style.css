@@ -97,6 +97,8 @@ section#Hobbies {
     line-height: .90em;
 }
 
+/*table*/
+
 @media screen and (min-width: 60cm) {
     figure {
         display: grid;
@@ -111,3 +113,29 @@ section#Hobbies {
     }
 }
 
+figure img {
+    width: 100;
+}
+
+#fit div {
+    max-width: 100%;
+    columns: 25nem;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr
+
+}
+
+hr {
+    display: none;
+}
+
+#gallory h2 {
+    grid: 1/-1;
+}
+
+figure {
+    display: block;
+}
