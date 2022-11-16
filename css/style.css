@@ -139,3 +139,9 @@ hr {
 figure {
     display: block;
 }
+
+/*Contact Form */
+
+#formElements {
+    display:grid;   
+}
