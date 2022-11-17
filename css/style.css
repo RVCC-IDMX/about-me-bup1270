@@ -143,5 +143,23 @@ figure {
 /*Contact Form */
 
 #formElements {
-    display:grid;   
+    display:grid;
+    text-align: center;
+    row-gap:2em;
+}
+
+#Contact {
+    padding: 10em;
+    max-width: 800px;
+    margin: 1px auto;
+    text-size-adjust: 10px;
+}
+
+#Contact ul {
+    list-style:none;
+    padding:10px;
+}
+
+#Contact button {
+    background-color: blue;    
 }
