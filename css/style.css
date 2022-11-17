@@ -149,7 +149,7 @@ figure {
 }
 
 #Contact {
-    padding: 10em;
+    padding: 100e;
     max-width: 800px;
     margin: 1px auto;
     text-size-adjust: 10px;
@@ -161,5 +161,17 @@ figure {
 }
 
 #Contact button {
-    background-color: blue;    
+    background-color:lightblue;
+    border: 1px solid;
+    font-size: 25px;  
+}
+
+#Contact legend {
+    background: lightblue;
+    text-align: center;
+    font-size: 20px;
+}
+
+#Contact label {
+    font-size: 25px;
 }
