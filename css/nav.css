@@ -85,3 +85,20 @@ min-width set to width of nav elements
 such that no text wraps 
 */
 
+@media screen and (min-width: 60rem) {
+    .navbar-links {
+        display:flex;
+        justify-content: space-between;
+
+    }
+
+    .navar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navar ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}
