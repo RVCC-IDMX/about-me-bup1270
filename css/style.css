@@ -74,6 +74,10 @@ section#Hobbies {
     text-align: center;
     border: 2px solid brown;
     margin-bottom:4rem;
+    border-bottom-left-radius: 100rem;
+    border-top-left-radius: 100rem;
+    border-top-right-radius: 100rem;
+    border-bottom-right-radius: 100rem;
 }
 
 #lit div {
@@ -125,6 +129,7 @@ figure img {
 #gallery {
     display: grid;
     grid-template-columns: 1fr
+    
 
 }
 
@@ -174,4 +179,15 @@ figure {
 
 #Contact label {
     font-size: 25px;
+}
+
+#Video {
+    text-align: center;
+    border: 1px solid cyan;
+    margin-bottom:10rem;
+    border-bottom-left-radius: 100rem;
+    border-top-left-radius: 100rem;
+    border-top-right-radius: 100rem;
+    border-bottom-right-radius: 100rem;
+    
 }
