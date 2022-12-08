@@ -24,7 +24,7 @@ header {
 /*Hero Section*/
 
 #Hero, footer {
-    background-color:#30C6E6;
+    background-color:#006400;
     text-align:center;
     padding: 20px;
 }
@@ -56,15 +56,25 @@ section#Hobbies {
 
 #gallery {
     border: 3px solid purple;
-    margin-bottom:4rem;
+    margin-bottom:2rem;
+    border-bottom-left-radius: 350rem;
+    border-top-left-radius: 350rem;
+    border-top-right-radius: 350rem;
+    border-bottom-right-radius: 350rem;
 }
 
 #gallery img {
-    max-width: 100px;
+    max-width: 200px;
+    margin-bottom:1rem;
+    border-bottom-left-radius: 200rem;
+    border-top-left-radius: 200rem;
+    border-top-right-radius: 200rem;
+    border-bottom-right-radius: 200rem;
 }
 
 #gallery figure {
-    text-align: right;
+    text-align: center;
+    text-size-adjust: 300px;
 }
 
 /*Literature */
@@ -184,10 +194,9 @@ figure {
 #Video {
     text-align: center;
     border: 1px solid cyan;
-    margin-bottom:10rem;
+    margin-bottom:5rem;
+    border-top-left-radius: 90rem;
+    border-top-right-radius: 90rem;
     border-bottom-left-radius: 100rem;
-    border-top-left-radius: 100rem;
-    border-top-right-radius: 100rem;
     border-bottom-right-radius: 100rem;
-    
 }
